@@ -17,3 +17,7 @@ def contact():
 @app.route("/feature")
 def feature():
     return render_template('feature.html')
+
+@app.route("/service")
+def service():
+    return render_template('service.html')
