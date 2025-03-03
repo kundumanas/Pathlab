@@ -18,6 +18,14 @@ def contact():
 def feature():
     return render_template('feature.html')
 
-@app.route("/service")
-def service():
-    return render_template('service.html')
+@app.route("/appointment")
+def appointment():
+    return render_template('appoinment.html')
+
+@app.route("/team")
+def team():
+    return render_template('team.html')
+
+@app.route("/testimonial")
+def testimonial():
+    return render_template('testimonial.html')
